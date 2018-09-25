@@ -1,0 +1,6 @@
+gen time = _n
+gen return = price[_n] - price[_n-1]
+browse return
+gen returns = (price[_n] - price[_n-1])/(price[_n-1])
+
+/*Calculating cumulative abnormal returns*/

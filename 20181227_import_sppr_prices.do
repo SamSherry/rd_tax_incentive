@@ -8,7 +8,7 @@ Author: Sam Sherry
 Objective: Import SPPR prices table*/
 
 /*Set location of working directory*/
-cd "C:\Users\12213952\Documents\stata\working"
+cd "\stata\working"
 clear all
 
 /*Import the SPPR Prices table*/

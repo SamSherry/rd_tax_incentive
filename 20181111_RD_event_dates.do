@@ -8,7 +8,7 @@ Author: Sam Sherry
 Objective: Extract dates of R&D tax incentive related announcements*/
 
 /*Settings*/
-cd "C:\Users\12219352\Documents\stata\working"
+cd "\stata\working"
 clear all
 
 /*Import event dates from Excel (based on quarter end date)*/

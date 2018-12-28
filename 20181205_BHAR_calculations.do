@@ -9,7 +9,7 @@ Objective: Calculate long-run buy-and-hold returns using daily price data*/
 
 /*Settings*/
 pwd
-cd "C:\Users\12219352\Documents\stata\working"
+cd "\stata\working"
 clear all
 
 /*Import data from SIRCA CRD*/
@@ -411,9 +411,3 @@ save monthly_prices_nonclaimers, replace
 use monthly_prices_nonclaimers, clear
 keep if evmonth==1
 save ev_months_nonclaimers, replace
-
-/* T-Tests*/
-
-/* Matching on size and MTB*/
-
-/* Need ewmkt from SPPR file - market index*/

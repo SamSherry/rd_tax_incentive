@@ -8,7 +8,7 @@ Author: Sam Sherry
 Objective: Calculate R&D tax rebate variables*/
 
 /*Set location of working directory*/
-cd "C:\Users\12219352\Documents\stata\working"
+cd "\stata\working"
 clear all
 
 /*REBATE_CURRENT_QTR*/

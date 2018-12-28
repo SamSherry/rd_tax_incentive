@@ -9,7 +9,7 @@ Objective: Import list of firms that file Appendix 5B reports
 and map to group codes from SPPR database*/
 
 /*Set location of working directory*/
-cd "C:\Users\12219352\Documents\stata\working"
+cd "\stata\working"
 clear all
 
 /*Import Appendix 5B header list*/

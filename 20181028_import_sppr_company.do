@@ -9,7 +9,7 @@ Objective: Import SPPR company table*/
 
 /*Set location of working directory*/
 clear all
-cd "C:\Users\12219352\Documents\stata\working"
+cd "\stata\working"
 
 /*Import the SPPR Company table*/
 import delimited company.txt, clear

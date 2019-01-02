@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
 # Concatenate resources and reserves data - need to install xlwt
 import os
 import sys
@@ -35,22 +30,12 @@ for f in os.listdir(MY_DIR):
                     print sheet.name
                     
 combined = pd.concat(frames)
-
-
-# In[2]:
-
 combined['project'].nunique()
-
-
-# In[3]:
-
 combined['filename'].nunique()
-
 
 # In[4]:
 
 combined.info()
-
 
 # In[5]:
 
@@ -331,6 +316,4 @@ resources.to_csv('/media/sf_Shared/resources.csv')
 
 
 # In[51]:
-
 reserves.to_csv('/media/sf_Shared/reserves.csv')
-
